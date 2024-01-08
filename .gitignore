@@ -1,0 +1,58 @@
+# macbook file
+.DS_Store
+__MACOSX
+
+# flie path
+node_modules
+dist
+esm
+aio
+example
+test
+es
+lib
+
+
+# webpack file
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log
+
+# Editor directories and files
+.idea
+.ipr
+.iws
+.vscode
+.project
+.svn
+.build
+.settings
+.cache
+*~
+~*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.iml
+*.log
+*.log.*
+*.diff
+*.patch
+*.bak
+*.swp
+*.swo
+*.pyc
+*.pyo
+.*proj

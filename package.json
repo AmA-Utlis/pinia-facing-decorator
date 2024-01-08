@@ -1,0 +1,48 @@
+{
+  "name": "fatherlib",
+  "version": "0.0.1",
+  "title": "Father Lib",
+  "description": "描述",
+  "unpkg": "dist/fatherlib.min.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "typings": "es/index.d.ts",
+  "keywords": [
+    "father-lib",
+    "father",
+    "libs"
+  ],
+  "files": [
+    "dist/**",
+    "es/**",
+    "lib/**",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "in": "npm publish",
+    "un": "npm unpublish fatherlib --force",
+    "init": "npm run in && npm run in"
+  },
+  "license": "MIT",
+  "author": "maxiaoqu(码小趣)<maxiaoqu@gmail.com>",
+  "contributors": [
+    "maxiaoqu(码小趣)<maxiaoqu@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.maxiaoqu.com/AMA-Template/Script-Father.git"
+  },
+  "bugs": {
+    "url": "http://git.maxiaoqu.com/AMA-Template/Script-Father/issues"
+  },
+  "homepage": "http://www.maxiaoqu.com/",
+  "devDependencies": {
+    "father": "^4.3.8",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  }
+}
