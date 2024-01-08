@@ -1,18 +1,12 @@
-import type {IFatherlib} from "./types";
-import addLib from "./fatherlib/add";
-
-const fatherlib = {
-  Add: addLib
-};
-
-if (typeof window !== "undefined") {
-  (window as any).fatherlib = fatherlib;
-}
+import Actions from "./pinia/action";
+import Plugins from "./pinia/plugins";
+import PiniaModule from "./pinia/pinia";
+import {Module, GetModule} from "./pinia/module";
 
 export {
-  addLib,
-
-  IFatherlib
+  Actions,
+  Plugins,
+  PiniaModule,
+  Module,
+  GetModule
 };
-
-export default fatherlib;

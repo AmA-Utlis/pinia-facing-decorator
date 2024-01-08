@@ -1,17 +1,17 @@
 {
-  "name": "fatherlib",
+  "name": "pinia-facing-decorator",
   "version": "0.0.1",
-  "title": "Father Lib",
-  "description": "描述",
-  "unpkg": "dist/fatherlib.min.js",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "types": "es/index.d.ts",
-  "typings": "es/index.d.ts",
+  "description": "pinia装饰器模块",
+  "main": "./es/index.js",
+  "types": "./es/index.d.ts",
   "keywords": [
-    "father-lib",
-    "father",
-    "libs"
+    "pinia-facing-decorator",
+    "pinia-decorator",
+    "pinia",
+    "decorator",
+    "vue3 pinia",
+    "vue3 pinia",
+    "vue-facing-decorator"
   ],
   "files": [
     "dist/**",
@@ -21,28 +21,26 @@
   ],
   "scripts": {
     "dev": "father dev",
-    "build": "father build",
-    "in": "npm publish",
-    "un": "npm unpublish fatherlib --force",
-    "init": "npm run in && npm run in"
+    "build": "father build"
   },
-  "license": "MIT",
+  "license": "ISC",
   "author": "maxiaoqu(码小趣)<maxiaoqu@gmail.com>",
   "contributors": [
     "maxiaoqu(码小趣)<maxiaoqu@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+http://git.maxiaoqu.com/AMA-Template/Script-Father.git"
+    "url": "git+https://github.com/AmA-Utlis/pinia-facing-decorator.git"
   },
   "bugs": {
-    "url": "http://git.maxiaoqu.com/AMA-Template/Script-Father/issues"
+    "url": "https://github.com/AmA-Utlis/pinia-facing-decorator/issues"
   },
-  "homepage": "http://www.maxiaoqu.com/",
+  "homepage": "www.maxiaoqu.com",
   "devDependencies": {
     "father": "^4.3.8",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "pinia": "^2.1.7"
   }
 }

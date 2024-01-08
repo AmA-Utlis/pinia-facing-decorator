@@ -8,15 +8,15 @@
 import { defineConfig } from 'father';
 
 export default defineConfig({
-  platform: 'browser',
+  // platform: 'browser',
   esm: {
     output: 'es'
   },
-  cjs: {
-    platform: 'browser',
-    output: 'lib'
-  },
-  umd: {
-    output: 'dist'
-  }
+  // cjs: {
+  //   platform: 'browser',
+  //   output: 'lib'
+  // },
+  // umd: {
+  //   output: 'dist'
+  // }
 })

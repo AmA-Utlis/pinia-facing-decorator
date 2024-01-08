@@ -1,4 +1,2 @@
-export type IFatherlib = {
-  x: string
-  y: string
-}
+export type IStore = new () => any;
+
